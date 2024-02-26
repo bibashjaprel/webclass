@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image mapping</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <!-- define map for image  -->
+         <img src="./workplace.jpg" alt="image" usemap="#image-map"> 
+    </div>
+
+   <!-- mapping the image according to coordinates  -->
+    <map name="image-map">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="http://bibashis.devloper">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.html">
+    </map>
+</body>
+</html>

@@ -1,0 +1,74 @@
+:root{
+    --collegename:rgb(165, 21, 50);
+    --layoutcolor:#192f59;
+    --brandcolor:#96a2b8;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+    
+  }
+  .header{
+    display: flex;
+    background-color: var(--layoutcolor);
+    height: 60px;
+  }
+  .header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--brandcolor);
+    margin: 13px;
+   margin-left: 25px;
+    
+}
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background-color:var(--layoutcolor);    
+    width: 100vw;
+    height: 60px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 3rem 5rem;
+  }
+
+
+.left img {
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .right h1 {
+
+    margin-top: 5rem;
+  }
+  .right h1 .collegename{
+    color: crimson;
+  }
+  
+  .right p {
+    line-height: 2;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+.footer{
+    margin: 0;
+    padding: 0;
+    background-color: var(--layoutcolor);
+    font-size: 23px;
+    color: whitesmoke;
+}
