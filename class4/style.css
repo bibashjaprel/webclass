@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: royalblue;
+    height: 50px;
+}
+
+#container{
+     background-color: aqua;
+     height: 80vh;
+     display: flex;
+}
+
+#container .left{
+    background-color: green;
+    width: 25%;
+}
+#container .right{
+    background-color: red;
+    width: 75%;
+}
+
+
+
+
+
+
+
+
+footer p {
+    background-color: blue;
+    height: 50px;
+    
+}
