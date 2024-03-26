@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<subject>
+    <webtechnology>
+        <practical>86</practical>
+        <theory>70</theory>
+    </webtechnology>
+
+    <dsa>
+        <practical>82</practical>
+        <theory>60</theory>
+    </dsa>
+
+    <SystemDesign>89</SystemDesign>
+</subject>

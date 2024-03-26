@@ -1,0 +1,24 @@
+<!-- dtd for booklist
+<!ELEMENT booklist(name,publishedYear,author)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT publishedYear(#PCDATA)>
+
+<!ELEMENT author(first,last)>
+<!ELEMENT first(#PCDATA)>
+<!ELEMENT last(#PCDATA)>
+
+now this file must be save as Note.dtd
+ -->
+
+ <!-- xml for above DTD -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "Note.dtd">
+ <booklist>
+ <name>Web Tech</name>
+ <pub_year>2008</pub_year>
+<author>
+<firstName>Bibash</firstName>
+<lastName>japrel</lastName>
+</author>
+ </booklist>
+

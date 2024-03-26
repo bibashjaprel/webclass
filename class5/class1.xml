@@ -1,0 +1,12 @@
+<root>
+    <name>
+        <first>rachi</first>
+        <last>pac</last>
+    </name>
+    <phone>09898989898999</phone>
+    <birthday>
+        <Day>4</Day>
+        <month>june</month>
+        <year>2070</year>
+    </birthday>
+</root>

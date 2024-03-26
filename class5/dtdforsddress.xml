@@ -1,0 +1,34 @@
+<!-- //DTD doucument type definition 
+
+
+<!ELEMENT address(name, email, phone, birthday)>
+<!ELEMENT name(first, last)>
+<!ELEMENT first(#PCDATA)>
+<!ELEMENT second(#PCDATA)>
+<!ELEMENT email(#PCDATA)>
+<!ELEMENT phone(#PCDATA)>
+<!ELEMENT birthday(year, day, month)>
+<!ELEMENT year(#PCDATA)>
+<!ELEMENT month(#PCDATA)>
+<!ELEMENT day(#PCDATA)> -->
+
+
+
+
+
+<!-- this is the xml for above dtd  -->
+<address>
+<name>
+    <first>Lorem</first>
+    <last>hse</last>
+</name>
+<email>root9t2@gmail.com</email>
+<phone>9868510000</phone>
+<birthday>
+    <year>2004</year>
+    <month>July</month>
+    <day>21</day>
+
+</birthday>
+</address>
+

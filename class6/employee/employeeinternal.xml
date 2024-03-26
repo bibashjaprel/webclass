@@ -1,0 +1,18 @@
+<!DOCTYPE roonode
+[
+<!ELEMENT  rootnode(employee)*>
+<! ELEMENT employee(firstname,lastname,designation,salary)>
+<!ELEMENT firstname(#PCDATA)>
+<!ELEMENT lastname(#PCDATA)>
+<!ELEMENT designation(#PCDATA)>
+<!ELEMENT salary(#PCDATA)>
+]>
+<?xml version='1.1'?>
+<rootnode>
+    <employee id='1'>
+        <firstname>Anup</firstname>
+        <lastname>gupta</lastname>
+        <designation>Project Manager</designation>
+        <Salary>25404</salary>
+    </employee>
+</rootnode>
